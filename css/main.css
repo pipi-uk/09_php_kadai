@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+  color: #5cb85c;
+}
+
+.navbar-brand:hover {
+  color: #3e8e41;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #5cb85c;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #449d44;
+}
+
+@media (max-width: 768px) {
+  .navbar-header {
+      margin: 10px;
+  }
+}
